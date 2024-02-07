@@ -20,6 +20,21 @@ fun main() {
     println("Tipus de dades de l'objecte " + o1.javaClass)
     println()
 
+    // Creem un nou objecte Triangle de debó convertint l'o1 a Triangle 100%
+    var o2:Triangle = o1 as Triangle
+    println(o2)
+    println("Tipus de dades de l'objecte " + o2.javaClass)
+    println()
+
+    // Creem un nou objecte Pentagon de debó convertint l'o1 a Pentagon 100%
+    // Aquesta assignació fallarà en temps d'execució, per aquest motiu posem les següents línies comentades
+    /*
+    var o3:Pentagon = o2 as Pentagon
+    println(o2)
+    println("Tipus de dades de l'objecte " + o2.javaClass)
+    println()
+     */
+
     // Redefinim l'objecte o1 ara usant el constructor de la classe Cercle i observem com canvia de tipus de dades
     o1 = Cercle(20, 20, "lila", 10.0)
     println(o1)
