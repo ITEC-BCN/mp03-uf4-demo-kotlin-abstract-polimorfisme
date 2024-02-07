@@ -1,0 +1,45 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:controllers////PointingToDeclaration/-demo--abstract--polimorfisme/controllers/index.html
+$dokka.location:controllers/MainKt///PointingToDeclaration/-demo--abstract--polimorfisme/controllers/-main-kt/index.html
+$dokka.location:controllers/MainKt/main/#/PointingToDeclaration/-demo--abstract--polimorfisme/controllers/-main-kt/main.html
+$dokka.location:models////PointingToDeclaration/-demo--abstract--polimorfisme/models/index.html
+$dokka.location:models/Cercle///PointingToDeclaration/-demo--abstract--polimorfisme/models/-cercle/index.html
+$dokka.location:models/Cercle/Cercle/#kotlin.Int#kotlin.Int#kotlin.String#kotlin.Double/PointingToDeclaration/-demo--abstract--polimorfisme/models/-cercle/-cercle.html
+$dokka.location:models/Cercle/calcArea/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-cercle/calc-area.html
+$dokka.location:models/Cercle/calcPermietre/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-cercle/calc-permietre.html
+$dokka.location:models/Cercle/getRadi/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-cercle/get-radi.html
+$dokka.location:models/Cercle/setRadi/#kotlin.Double/PointingToDeclaration/-demo--abstract--polimorfisme/models/-cercle/set-radi.html
+$dokka.location:models/Cercle/toString/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-cercle/to-string.html
+$dokka.location:models/ObjecteGeometric///PointingToDeclaration/-demo--abstract--polimorfisme/models/-objecte-geometric/index.html
+$dokka.location:models/ObjecteGeometric/ObjecteGeometric/#kotlin.Int#kotlin.Int#kotlin.String/PointingToDeclaration/-demo--abstract--polimorfisme/models/-objecte-geometric/-objecte-geometric.html
+$dokka.location:models/ObjecteGeometric/calcArea/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-objecte-geometric/calc-area.html
+$dokka.location:models/ObjecteGeometric/calcPermietre/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-objecte-geometric/calc-permietre.html
+$dokka.location:models/ObjecteGeometric/toString/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-objecte-geometric/to-string.html
+$dokka.location:models/Pentagon///PointingToDeclaration/-demo--abstract--polimorfisme/models/-pentagon/index.html
+$dokka.location:models/Pentagon/Pentagon/#kotlin.Int#kotlin.Int#kotlin.String#kotlin.Double/PointingToDeclaration/-demo--abstract--polimorfisme/models/-pentagon/-pentagon.html
+$dokka.location:models/Pentagon/calcArea/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-pentagon/calc-area.html
+$dokka.location:models/Pentagon/calcPermietre/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-pentagon/calc-permietre.html
+$dokka.location:models/Pentagon/toString/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-pentagon/to-string.html
+$dokka.location:models/Triangle///PointingToDeclaration/-demo--abstract--polimorfisme/models/-triangle/index.html
+$dokka.location:models/Triangle/Triangle/#kotlin.Int#kotlin.Int#kotlin.String#kotlin.Double#kotlin.Double/PointingToDeclaration/-demo--abstract--polimorfisme/models/-triangle/-triangle.html
+$dokka.location:models/Triangle/calcArea/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-triangle/calc-area.html
+$dokka.location:models/Triangle/calcPermietre/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-triangle/calc-permietre.html
+$dokka.location:models/Triangle/toString/#/PointingToDeclaration/-demo--abstract--polimorfisme/models/-triangle/to-string.html
+$dokka.location:utils////PointingToDeclaration/-demo--abstract--polimorfisme/utils/index.html
+$dokka.location:utils/ConsoleColorsKt///PointingToDeclaration/-demo--abstract--polimorfisme/utils/-console-colors-kt/index.html
+$dokka.location:utils/UtilitiesKt///PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/index.html
+$dokka.location:utils/UtilitiesKt/getScan/#/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/get-scan.html
+$dokka.location:utils/UtilitiesKt/readBoolean/#kotlin.String#kotlin.String/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-boolean.html
+$dokka.location:utils/UtilitiesKt/readChar/#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-char.html
+$dokka.location:utils/UtilitiesKt/readChar/#kotlin.String#kotlin.String/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-char.html
+$dokka.location:utils/UtilitiesKt/readFloat/#kotlin.String#kotlin.String#kotlin.String#kotlin.Float#kotlin.Float/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-float.html
+$dokka.location:utils/UtilitiesKt/readFloat/#kotlin.String#kotlin.String/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-float.html
+$dokka.location:utils/UtilitiesKt/readInt/#kotlin.String#kotlin.String#kotlin.String#kotlin.Int#kotlin.Int/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-int.html
+$dokka.location:utils/UtilitiesKt/readInt/#kotlin.String#kotlin.String/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-int.html
+$dokka.location:utils/UtilitiesKt/readSentence/#kotlin.String#kotlin.String/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-sentence.html
+$dokka.location:utils/UtilitiesKt/readWord/#kotlin.String#kotlin.String/PointingToDeclaration/-demo--abstract--polimorfisme/utils/-utilities-kt/read-word.html
+controllers
+models
+utils
+

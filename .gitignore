@@ -1,5 +1,5 @@
 .gradle
-build/
+build/*
 !build/dokka/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
