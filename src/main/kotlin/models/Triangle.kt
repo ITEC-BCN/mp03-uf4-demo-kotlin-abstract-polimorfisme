@@ -29,7 +29,7 @@ class Triangle : ObjecteGeometric {
      * Especifiquem la fòrmula matemàtica pel càlcul de l'àrea del triangle
      * @return L'àrea de la figura de tipus Double
      */
-    override fun calcArea(): Double {
+    override public fun calcArea(): Double {
         return this.base * this.altura / 2
     }
 
@@ -38,7 +38,7 @@ class Triangle : ObjecteGeometric {
      * Especifiquem la fòrmula matemàtica pel càlcul del perímetre del triangle
      * @return El perímetre de la figura de tipus Double
      */
-    override fun calcPermietre(): Double {
+    override public fun calcPermietre(): Double {
         return this.base + this.altura + Math.sqrt(Math.pow(this.base, 2.0) + Math.pow(this.altura, 2.0))
     }
 
@@ -46,7 +46,7 @@ class Triangle : ObjecteGeometric {
      * Redefinim el codi del mètode toString() heretat de la classe pare
      * Afegim l'atribut de la base i l'altura
      */
-    override fun toString(): String {
+    override public fun toString(): String {
         return PURPLE_BOLD + "Triangle -> Base: ${this.base}, Altura:${this.altura} --> " + RESET + super.toString()
     }
 }

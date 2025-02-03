@@ -50,5 +50,4 @@ ObjecteGeometric <|-- Cercle : és
 ObjecteGeometric <|-- Pentagon : és
 ObjecteGeometric <|-- Triangle : és
 
-
 @enduml
