@@ -13,13 +13,13 @@ class Triangle : ObjecteGeometric {
      * Definició del constructor de la classe Triangle que crida al constructor de la classe pare
      * per a inicialitzar els atributs del pare
      *
-     * @param x de tipus Int per especificar la posició de la figura sobre l'eix de horitzontal
-     * @param y de tipus Int per a especificar la posició de la figura sobre l'eix vertical
+     * @param x de tipus Double per especificar la posició de la figura sobre l'eix de horitzontal
+     * @param y de tipus Double per a especificar la posició de la figura sobre l'eix vertical
      * @param color de tipus String per a especificar el color de la figura
      * @param base de tipus Double per a especificar la mida de la base del triangle
      * @param altura de tipus Double per a especificar la mida de l'altura del triangle
      */
-    constructor(x: Int, y: Int, color: String, base: Double, altura: Double) : super(x, y, color) {
+    constructor(x: Double, y: Double, color: String, base: Double, altura: Double) : super(x, y, color) {
         this.base = base
         this.altura = altura
     }

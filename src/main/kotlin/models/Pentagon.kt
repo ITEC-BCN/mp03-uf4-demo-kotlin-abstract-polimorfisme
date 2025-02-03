@@ -1,23 +1,24 @@
 package models
+
 import utils.*
 
 /**
  * Definició de la classe Pentagon que hereta de la classe abstracte ObjecteGeometric
  * @author itec-bcn
  */
-class Pentagon: ObjecteGeometric {
+class Pentagon : ObjecteGeometric {
     private var costat: Double
 
     /**
      * Definició del constructor de la classe Pentagon que crida al constructor de la classe pare
      * per a inicialitzar els atributs del pare
      *
-     * @param x de tipus Int per especificar la posició de la figura sobre l'eix de horitzontal
-     * @param y de tipus Int per a especificar la posició de la figura sobre l'eix vertical
+     * @param x de tipus Double per especificar la posició de la figura sobre l'eix de horitzontal
+     * @param y de tipus Double per a especificar la posició de la figura sobre l'eix vertical
      * @param color de tipus String per a especificar el color de la figura
      * @param costat de tipus Double per a especificar la mida del costat de la figura
      */
-    constructor(x:Int, y:Int, color:String, costat: Double) : super(x, y, color) {
+    constructor(x: Double, y: Double, color: String, costat: Double) : super(x, y, color) {
         this.costat = costat
     }
 

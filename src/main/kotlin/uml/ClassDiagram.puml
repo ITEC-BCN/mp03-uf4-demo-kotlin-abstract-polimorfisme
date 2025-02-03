@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class ObjecteGeometric{
+    -- atributs --
+    # x: Double
+    # y: Double
+    # color: String
+    -- mètodes --
+    + constructor(Double, Double, String)
+    + {abstract} calcArea(): Double
+    + {abstract} calcPerimetre(): Double
+    + toString(): String
+}
+
+class Cercle{
+   -- atributs --
+    - radi: Double
+   -- mètodes --
+   + constructor(Double, Double, String, Double)
+   + calcArea(): Double
+   + calcPerimetre(): Double
+   + getRadi(): Double
+   + setRadi(Double)
+   + toString(): String
+}
+
+class Pentagon{
+   -- atributs --
+   - costat: Double
+   -- mètodes --
+   + constructor(Double, Double, String, Double)
+   + calcArea(): Double
+   + calcPerimetre(): Double
+   + toString(): String
+}
+
+class Triangle{
+   -- atributs --
+    - base: Double
+    - altura: Double
+   -- mètodes --
+   + constructor(Double, Double, String, Double, Double)
+   + calcArea(): Double
+   + calcPerimetre(): Double
+   + toString(): String
+}
+
+ObjecteGeometric <|-- Cercle : és
+ObjecteGeometric <|-- Pentagon : és
+ObjecteGeometric <|-- Triangle : és
+
+
+@enduml
